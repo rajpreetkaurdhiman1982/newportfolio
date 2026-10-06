@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rajpreet | Developer Portfolio</title>
+
+    <style>
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            font-size: 67;
+            color: #222;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #111827;
+            color: rgb(235, 229, 229);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+        
+        }
+
+        nav h2 {
+            font-size: 25px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color:#2563eb;
+        }
+.hero {
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        .btn {
+
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #8598ca;
+        }
+section {
+            padding: 80px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+.about {
+            background-color: white;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+            color: #555;
+        }
+.skills {
+            text-align: center;
+        }
+
+        .skill {
+            background-color: white;
+            padding: 12px 25px;
+            margin: 8px;
+            border-radius: 20px;
+            font-weight: bold;}
+
+        .skill:hover {
+        }
+        .projects {
+            background-color: white;
+        }
+
+        .project-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .project-card {
+            background-color: #f5f7fa;
+            width: 320px;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .project-card h3 {
+            font-size: 23px;
+            margin-bottom: 12px;
+        }
+
+        .project-card p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+.contact {
+            background-color: #111827;
+            color: white;
+
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin-bottom: 25px;
+        }
+
+        .contact a {
+            color: #60a5fa;
+
+            text-decoration: none;
+
+            margin: 0 15px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+footer {
+            background-color: #0b1120;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+        }
+    </style>
+</head>
+<body><nav>
+
+        <h2>Rajpreet</h2>
+
+        <ul>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section class="hero" id="home">
+
+        <h1>Hi, I'm Rajpreet 👋</h1>
+
+        <h2>BTech CSE Student</h2>
+
+        <p>
+            I am learning C++, DSA, HTML and CSS
+            and building projects to improve my
+            development skills.
+        </p>
+
+        <a href="#projects" class="btn">
+            View My Projects
+        </a>
+
+    </section>
+<section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science Engineering student
+            interested in software development, Data
+            Structures and Algorithms, and Web Development.
+            I enjoy learning new technologies and building
+            projects to improve my practical skills.
+        </p>
+
+    </section>
+<section class="skills" id="skills">
+
+        <h2>My Skills</h2>
+
+        <span class="skill">C++</span>
+
+        <span class="skill">DSA</span>
+
+        <span class="skill">HTML</span>
+
+        <span class="skill">CSS</span>
+
+        <span class="skill">Git</span>
+
+        <span class="skill">GitHub</span>
+
+    </section>
+<section class="projects" id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+
+            <!-- Project 1 -->
+
+            <div class="project-card">
+
+                <h3>Flavour Fusion</h3>
+
+                <p>
+                    A responsive restaurant website
+                    created using HTML and CSS.
+                </p>
+
+                <a
+                    href="https://rajpreetkaurdhiman1982.github.io/flavour-fusion-restro/"
+                    target="_blank"
+                    class="btn">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <!-- Project 2 -->
+
+            <div class="project-card">
+
+                <h3>DSA Practice</h3>
+
+                <p>
+                    A collection of Data Structures
+                    and Algorithms problems that I
+                    have practiced using C++.
+                </p>
+
+                <a href="#" class="btn">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <!-- Project 3 -->
+
+            <div class="project-card">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    My personal portfolio website
+                    built using HTML and CSS.
+                </p>
+
+                <a href="#home" class="btn">
+                    View Project
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+<section class="contact" id="contact">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            Feel free to connect with me through
+            LinkedIn or GitHub.
+        </p>
+
+        <a href="#" target="_blank">
+            LinkedIn
+        </a>
+
+        <a href="#" target="_blank">
+            GitHub
+        </a>
+
+        <a href="mailto:yourmail@example.com">
+            Email
+        </a>
+
+    </section>
+
+<footer>
+
+        <p>
+            © 2026 Rajpreet. All rights reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
